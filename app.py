@@ -36,7 +36,7 @@ def main():
                             ('BambooLLM','gemini-pro'),index=0)
         
         #Adding users API Key
-        user_api_key = st.text_input('Please add your API key',placeholder='Paste your API key here',type = 'password')
+        user_api_key = st.text_input('$2a$10$vWgQ2czgXzROkwU6q1EwHe80SDqkwhgw4pBggiKT0R.GL.Pu60e7a',placeholder='Paste your API key here',type = 'password')
         
         #Get Pandas API key here
         st.markdown("[Get Your PandasAI API key here](https://www.pandabi.ai/auth/sign-up)")
